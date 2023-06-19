@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework_01.06</title>
+    <link rel="stylesheet" href="/style/style.css">
+
+</head>
+<body>
+    <p class="test">
+        <bold>Id:</bold>
+        <span id="id"></span>
+    </p>
+    <p>
+        <bold>City:</bold>
+        <span id="city"></span>
+    </p>
+    <p>
+        <bold>Country:</bold>
+        <span id="country"></span>
+    </p>
+    <table style="border: 1px solid black;" id="tab1">
+        <thead>
+         <tr>
+            <td>User Id
+                <button id="ascendingId" onclick="ascendingId()">+</button>
+                <button id="descendingId" onclick="descendingId()">-</button>
+            </td>
+            <td>User Posts
+                <button id="ascendingPosts" onclick="ascendingPosts()">+</button>
+                <button id="descendingPosts" onclick="descendingPosts()">-</button>
+            </td>
+         </tr>
+        </thead>
+        <tbody id="data"></tbody>
+    </table>
+    
+    <script src="/script/script.js"></script>
+</body>
+</html>
